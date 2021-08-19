@@ -9,6 +9,8 @@
 #include <linux/kvm.h>
 #include <fcntl.h>
 #include <stdlib.h>
+#include <sys/ioctl.h>
+#include <unistd.h>
 #include <assert.h>
 
 #define KVM_DEVICE "/dev/kvm"
